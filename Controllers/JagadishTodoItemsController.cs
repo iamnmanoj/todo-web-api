@@ -122,7 +122,11 @@ namespace TodoApi.Controllers
             {
                 return NotFound();
             }
-            _context.JagadishTodoItem.RemoveRange(_context.JagadishTodoItem);
+            foreach (var entity in _context.JagadishTodoItems)
+            {
+                _context.JagadishTodoItems.Remove(entity);
+            }
+            _context.SaveChanges();
 
             return await _context.JagadishTodoItem.ToListAsync();
         }

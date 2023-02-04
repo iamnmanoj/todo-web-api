@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manoj\\source\\repos\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\manoj.k\\source\\poc\\todo-web-api\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manoj\\source\\repos\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\manoj.k\\source\\poc\\todo-web-api\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manoj\\source\\repos\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\manoj.k\\source\\poc\\todo-web-api\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\manoj\\source\\repos\\TodoApi\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manoj\\source\\repos\\TodoApi\\obj\\",
+        "projectPath": "C:\\Users\\manoj.k\\source\\poc\\todo-web-api\\TodoApi.csproj",
+        "packagesPath": "C:\\Users\\manoj.k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manoj.k\\source\\poc\\todo-web-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\manoj.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,11 +44,15 @@
               "target": "Package",
               "version": "[7.0.2, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -54,15 +60,15 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

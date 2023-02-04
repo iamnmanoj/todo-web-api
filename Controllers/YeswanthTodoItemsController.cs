@@ -122,7 +122,11 @@ namespace TodoApi.Controllers
             {
                 return NotFound();
             }
-            _context.YeswanthTodoItem.RemoveRange(_context.YeswanthTodoItem);
+            foreach (var entity in _context.YeswanthTodoItems)
+            {
+                _context.YeswanthTodoItems.Remove(entity);
+            }
+            _context.SaveChanges();
 
             return await _context.YeswanthTodoItem.ToListAsync();
         }
