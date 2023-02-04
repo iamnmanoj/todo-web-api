@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ae6dfc88-23c0-4501-a458-63f6a54aad78/AppServices/subscriptions/ae6dfc88-23c0-4501-a458-63f6a54aad78/resourceGroups/todo-app/providers/Microsoft.Web/sites/mk-ap-todo-webapi",
+    "appService.deploySubpath": "bin\\Publish"
+}
